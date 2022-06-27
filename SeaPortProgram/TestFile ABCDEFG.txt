@@ -1,0 +1,20 @@
+// File: aSPad.txt
+// Data file for SeaPort projects
+// Date: Sun Sep 01 12:40:29 CDT 2019
+// parameters: 8 15 20 20 5 30
+//   ports, docks, pships, cships, jobs, persons
+
+// port   name index parent(null)
+//    port   <string> <int> <int>
+port Havana 10002 0
+port Rizhao 10005 0
+port Szczecin 10000 0
+port Caldera 10004 0
+port Jisi 10001 0
+port Baoan 10007 0
+port Queretaro 10006 0
+port Higashiharima 10003 0
+
+// dock   name index parent(port)
+//    dock   <string> <int> <int>
+dock Pier_84 20084 10007 30144
